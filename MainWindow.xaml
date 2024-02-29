@@ -1,0 +1,15 @@
+﻿<Window x:Class="MovieViewerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieViewerApp"
+        xmlns:resx="clr-namespace:MovieViewerApp.Properties"
+        xmlns:mv="clr-namespace:MovieViewerApp.MovieViewer"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Background="DarkSlateGray"
+        Title="" Height="450" Width="800">
+
+    <mv:MovieViewerUserControl x:Name="movieViewerUserControl" x:FieldModifier="private"/>
+</Window>
